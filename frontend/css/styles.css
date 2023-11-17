@@ -1,0 +1,85 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #1a202c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #1a202c;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.map {
+    height: 500px;
+    width: 100%;
+}
+
+.login-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #edf2f7;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f7fafc;
+}
+
+.kanban {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kanban-column {
+    width: 24%;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.kanban-item {
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}

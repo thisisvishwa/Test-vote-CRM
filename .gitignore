@@ -1,0 +1,43 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*~
+
+# Ignore SQLite database files
+*.db
+*.sqlite
+
+# Ignore all log files
+*.log
+
+# Ignore files related to virtual environment
+venv/
+ENV/
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore files related to IDE
+.vscode/
+.idea/
+
+# Ignore Docker files
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore Node modules
+node_modules/
+
+# Ignore CSS and JS build artifacts
+dist/
